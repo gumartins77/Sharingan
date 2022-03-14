@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', Arial, sans-serif;
+}
+
+body{
+    width: 100%;
+    height: 100%;
+    background-color: #380244;
+}
+
+header {
+  box-shadow: 10rem 60rem 10rem 10rem rgb(0, 0, 0);
+}
+
+header img {
+  width: 100%;
+}
+
+header h1{
+    padding: 2rem;
+    color: #7602fa;
+    font-size: 3rem;
+    text-shadow: .2rem .2rem #1b1b1b80;
+}
+
+section#apresentacao div#informacoes{
+  padding: 2rem;
+  color: #7602fa;
+  text-align: center;
+}
+
+section#apresentacao div#informacoes h2{
+  padding: 1rem;
+  font-size: 3rem;
+  font-weight: 250;
+}
+
+section#apresentacao div#informacoes button{
+  padding: .8rem;
+  font-size: 1.3rem;
+  background-color: #7602fa;
+  border: 1px solid #7602fa;
+  border-radius: 2rem;
+  transition: all .4s ease-out;
+  cursor: pointer;
+}
+
+section#apresentacao div#informacoes button:hover{
+  transform: scale(1.1);
+  box-shadow: 0px 0px 10px 7px rgb(143, 6, 6);
+  background-color: red;
+  color: black;
+  border: black;
+}
+
+section#apresentacao div#imagens{
+  display: flex;
+  justify-content: center;
+}
+
+section#apresentacao div#imagens img{
+  width: 40%;
+  border-radius: 1.5rem;
+}
+
+footer {
+  padding: 1rem;
+}
