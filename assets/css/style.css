@@ -40,10 +40,10 @@ section#apresentacao div#informacoes h2{
 }
 
 section#apresentacao div#informacoes button{
-  padding: .8rem;
-  font-size: 1.3rem;
   background-color: #7602fa;
   border: 1px solid #7602fa;
+  padding: .8rem;
+  font-size: 1.3rem;
   border-radius: 2rem;
   transition: all .4s ease-out;
   cursor: pointer;

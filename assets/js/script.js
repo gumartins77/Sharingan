@@ -1,15 +1,17 @@
 let detalhe = document.querySelector('#detalhe'); 
-let som = document.querySelector('#som')
+let som = document.querySelector('#som');
 let imagem = document.querySelector('#imagem');
 let botao = document.querySelector('#alteracao');
+
+function alterarPagina() {
 botao.addEventListener('click', () =>{
     if(botao.value == '1'){
-        detalhe.innerText = '2 Tomoes: Segundo nível'
+        detalhe.innerText = '2 Tomoe: Segundo nível'
         som.play(); 
         imagem.src = './assets/img/Sharingan-2.jpeg'
         botao.value = '2' 
     } else if(botao.value == '2') { 
-        detalhe.innerText = '3 Tomoes: Terceiro nível' 
+        detalhe.innerText = '3 Tomoe: Terceiro nível' 
         som.play();
         imagem.src = './assets/img/Sharingan-3.jpg'
         botao.value = '3'  
@@ -30,3 +32,6 @@ botao.addEventListener('click', () =>{
         botao.value = '1' 
     }
 });
+}
+
+alterarPagina();
